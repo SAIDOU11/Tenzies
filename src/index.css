@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #0b2434;
+}
+
+main {
+  background-color: #fff;
+}
+
+/*
+font-family: 'Inter', sans-serif;
+font-family: 'Karla', sans-serif;
+
+*/
