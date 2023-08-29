@@ -1,3 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0b2434;
+  margin: 0 auto;
+  font-family: 'Karla', sans-serif;
+  max-width: 800px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.75em;
+  margin: 2em;
+  height: 500px;
+  background-color: #f5f5f5;
+  max-width: 700px;
+}
+
+/* Dice */
+.dice-container {
+  display: grid;
+  grid-template: auto auto / repeat(5, 1fr);
+  gap: 1em;
+  width: 80%;
+}
+
+/* Die */
+.die-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.25em;
+  background-color: #fff;
+  box-shadow: 0px 2px 2px 0px #00000026;
+  width: 50px;
+  height: 50px;
+  gap: 0.5em;
+  cursor: pointer;
+}
+
+.die {
+  font-size: 2rem;
+  color: #2b283a;
+}
+
 /*
   font-family: 'Inter', sans-serif;
   font-family: 'Karla', sans-serif;
