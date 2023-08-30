@@ -25,6 +25,17 @@ main {
   margin: 0 auto;
 }
 
+.title {
+  font-size: 2.2rem;
+  margin-bottom: 0;
+}
+
+.instructions {
+  font-size: 1.3rem;
+  width: 65%;
+  line-height: 1.5;
+}
+
 /* Dice Container */
 .dice-container {
   width: 65%;
